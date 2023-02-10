@@ -1,5 +1,16 @@
-import time # import time module, voor sleep functie
-import random # import random module, voor randint functie
+import time # import time module, voor sleep functie, line 52
+import random # import random module, voor randint functie, line 40
+
+# gebruikte ANSI escape codes:
+# \033[0m = wit
+# \x1b[1;30;41m = rode achtergrond op grijze tekst
+# \x1b[3;37;40m = schuingedrukte witte tekst (zwarte achtergrond)
+# \x1b[1;34;40m = dikgedrukte blauwe tekst (zwarte achtergrond)
+# \x1b[1;30;40m = schuingedrukte grijze tekst (zwarte achtergrond)
+# \x1b[1;30;42m = groene achtergrond op grijze tekst
+# \x1b[1;32;40m = dikgedrukte groene tekst (zwarte achtergrond)
+# \x1b[1;31;40m = dikgedrukte rode tekst (zwarte achtergrond)
+# \x1b[1;37;40m = dikgedrukte witte tekst (zwarte achtergrond)
 
 
 matches = int(input('Hoeveel potjes wil je spelen? ')) # vraag hoeveel matches user wil spelen, maak er een integer van en sla het antwoord op in de variabele 'matches'
