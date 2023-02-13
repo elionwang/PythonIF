@@ -1,7 +1,7 @@
 import random
 choices = ["steen", "papier", "schaar"]
 computerChoice = random.choice(choices)
-playerChoice = str(input('Kies steen, papier of schaar: ')).lower()
+playerChoice = input('Kies steen, papier of schaar: ').lower()
 outcome = choices.index(playerChoice) - choices.index(computerChoice)
 print(f'Speler: {playerChoice}')
 print(f'Computer: {computerChoice}')
