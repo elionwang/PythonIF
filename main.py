@@ -91,7 +91,7 @@ while i <= matches: # maak while loop, voer code uit als i kleiner of gelijk is 
       spelerScore += 1 # voeg 1 toe aan de waarde van de variabele spelerScore
       print(f'\x1b[1;34;40mPot {i}:\n\033[0mJij koos:',"\x1b[3;37;40m",f'{spelerActieNaam}',"\033[0m",'\nComputer koos:',"\x1b[3;37;40m",f'{computerActieNaam}',f'\n\x1b[1;30;40mJij wint!\n\x1b[1;30;42mJouw score: {spelerScore}\033[0m |',"\x1b[1;30;41m",f'Computer score: {computerScore}\033[0m') # geef uitslag en print naar console, gebruik ANSI escape codes voor alle kleuren
 
-  if i == matches: # voer code uit als de variabele i 
+  if i == matches: # voer code uit als de variabele i gelijk staat aan variabele 'matches'
     print('-------------------------------------') # print een lijn met streepjes naar de console voor overzichtelijkheid
     print(f'\x1b[1;34;40mOverzicht:\n\x1b[1;30;42mJouw score: {spelerScore}',"\033[0m",'|',"\x1b[1;30;41m",f'Computer score: {computerScore}\033[0m') # geef score van speler en computer d.m.v. variabelen spelerScore en computerScore en print naar console, gebruik ANSI escape codes voor alle kleuren
     if spelerScore == computerScore: # voer code uit in het geval dat spelerScore gelijk staat aan computerScore
